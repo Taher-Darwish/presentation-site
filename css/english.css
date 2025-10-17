@@ -1,0 +1,167 @@
+/* English (LTR) Language Styles */
+
+html[dir="ltr"] body {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Navbar adjustments for LTR */
+html[dir="ltr"] .navbar {
+    flex-direction: row;
+}
+
+html[dir="ltr"] .nav-menu {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+html[dir="ltr"] .nav-actions {
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+html[dir="ltr"] .lang-switch {
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+
+/* Hero section LTR */
+html[dir="ltr"] .hero-content {
+    text-align: left;
+}
+
+html[dir="ltr"] .hero-buttons {
+    justify-content: flex-start;
+}
+
+/* Icons positioning for LTR */
+html[dir="ltr"] .btn i {
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+html[dir="ltr"] .service-icon,
+html[dir="ltr"] .info-icon,
+html[dir="ltr"] .stat-card i {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Footer adjustments for LTR */
+html[dir="ltr"] .footer-contact li i {
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+html[dir="ltr"] .social-links {
+    justify-content: flex-start;
+}
+
+/* Form labels for LTR */
+html[dir="ltr"] .form-group label {
+    left: 1rem;
+    right: auto;
+}
+
+html[dir="ltr"] .form-group input:focus + label,
+html[dir="ltr"] .form-group input:valid + label,
+html[dir="ltr"] .form-group textarea:focus + label,
+html[dir="ltr"] .form-group textarea:valid + label,
+html[dir="ltr"] .form-group select:focus + label,
+html[dir="ltr"] .form-group select:valid + label {
+    left: 1rem;
+    right: auto;
+}
+
+/* Newsletter form for LTR */
+html[dir="ltr"] .newsletter-form input {
+    padding: 1rem 4rem 1rem 1rem;
+}
+
+html[dir="ltr"] .newsletter-form button {
+    left: auto;
+    right: 0.5rem;
+}
+
+/* About features for LTR */
+html[dir="ltr"] .feature-item i {
+    margin-right: 0.75rem;
+    margin-left: 0;
+}
+
+/* Info cards for LTR */
+html[dir="ltr"] .info-card {
+    text-align: left;
+    flex-direction: row;
+}
+
+html[dir="ltr"] .info-icon {
+    margin: 0 1.5rem 0 0;
+}
+
+html[dir="ltr"] .info-details {
+    text-align: left;
+}
+
+html[dir="ltr"] .info-details h4 {
+    text-align: left;
+}
+
+html[dir="ltr"] .info-details p,
+html[dir="ltr"] .info-details a {
+    text-align: left;
+}
+
+/* Scroll top button for LTR */
+html[dir="ltr"] .scroll-top {
+    left: 2rem;
+    right: auto;
+}
+
+@media (max-width: 768px) {
+    html[dir="ltr"] .scroll-top {
+        left: 1rem;
+        right: auto;
+    }
+}
+
+/* Hamburger menu for LTR */
+html[dir="ltr"] .hamburger {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+/* Breadcrumb for LTR */
+html[dir="ltr"] .breadcrumb {
+    justify-content: flex-start;
+}
+
+html[dir="ltr"] .breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin: 0 0.5rem;
+}
+
+/* Service details for LTR */
+html[dir="ltr"] .service-detail ul {
+    padding-left: 2rem;
+    padding-right: 0;
+}
+
+html[dir="ltr"] .service-detail ul li::before {
+    left: -1.5rem;
+    right: auto;
+}
+
+/* Benefits grid for LTR */
+html[dir="ltr"] .benefit-card {
+    text-align: left;
+}
+
+html[dir="ltr"] .benefit-icon {
+    margin: 0 0 1rem;
+}
+
+/* Stats section - ensure numbers use English numerals */
+html[dir="ltr"] .stat-number {
+    font-variant-numeric: lining-nums;
+}
